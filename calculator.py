@@ -15,3 +15,10 @@ def bush_acre_to_kg_hec(bush_acre, crop):
     else: 
         print("crop conversion not available")
     return kg_ha
+
+
+def acres_to_hectare(acres):
+    """Function for convertin acres into hectares"""
+    conversionfactor=0.404686
+    return acres*conversionfactor
+
